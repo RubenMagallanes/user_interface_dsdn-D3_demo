@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700|Exo+2:300,600);
+ 
+
+ 
+
+ 
+body {
+  font-family: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  background: #C7DCF1;
+  color: #CC66FF;
+}
+ 
+strong {
+  font-weight: 600;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #007AA3;
+  font-size: 1.75em;
+
+}
+
+div
+{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

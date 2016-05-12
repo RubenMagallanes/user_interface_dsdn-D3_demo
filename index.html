@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather viewer app</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        
+        <svg width="800" height="400" style="background: #C7DCF1">
+
+
+
+            <line x1="300" y1="75" x2="300" y2="325" style="stroke: #444444;stroke-width: 1" />
+            <line x1="133" y1="200" x2="217" y2="200" style="stroke: #505050;stroke-width: 1" />
+            <line x1="400" y1="200" x2="650" y2="200" style="stroke: #505050;stroke-width: 1" />
+
+            <svg id="city" x="100" y="80" width="200" height="30">                  
+            </svg>
+            <svg id="temp" x="100" y="100" height="120">
+            </svg>
+            <svg id="current_weather" x="100" y="210" width="200" height="300">               
+            </svg>     
+            <svg id="current_day" x="400" y="55" width="300" height="60">                
+            </svg>
+            <svg id="temps_bar" x="400" y="100" width="250" height="100">
+            </svg>
+            <svg id="labels" x="400" y="200" width="250" height="30">
+                <text x="0" y="10" fill="#888888" font-size="12" font-weight="bold">am</text>
+                <text x="90" y="10" fill="#888888" font-size="12" font-weight="bold">pm</text>
+
+                <text x="0" y="22" fill="#888888" font-size="12" font-weight="bold">6</text>
+                <text x="45" y="22" fill="#888888" font-size="12" font-weight="bold">9</text>
+                <text x="90" y="22" fill="#888888" font-size="12" font-weight="bold">12</text>
+                <text x="135" y="22" fill="#888888" font-size="12" font-weight="bold">3</text>
+                <text x="176" y="22" fill="#888888" font-size="12" font-weight="bold">6</text>
+                <text x="221" y="22" fill="#888888" font-size="12" font-weight="bold">9</text>
+
+            </svg>
+            <svg id="icon_bar" x="400" y="230" width="250" height="100">
+            </svg>
+
+        </svg>
+
+    </div>
+    <script src="jquery-1.11.2.js"></script>
+    <script src="d3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- svg's downloaded from http://all-free-download.com/ -->

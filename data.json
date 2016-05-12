@@ -1,0 +1,48 @@
+/* json file describing 3 day forecast for 3 different citys
+
+*/
+
+{
+    "days": ["today", "tomorrow", "3 day forecast"],
+    "cities": [
+        {
+            "name": "wellington",
+            "temps": {
+                "day1": [1, 2, 3, 4, 5, 6],
+                "day2": [2, 3, 4, 5, 6, 7],
+                "day3": [3, 4, 5, 6, 7, 8]
+            },
+            "weathers": {
+                "day1": ["sun", "cloud", "rain"],
+                "day2": ["rain", "cloud", "sun"],
+                "day3": ["sun", "sun", "cloud"]
+            }
+    },
+        {
+            "name": "auckland",
+            "temps": {
+                "day1": [1, 2, 3, 4, 5, 6],
+                "day2": [2, 3, 4, 5, 6, 7],
+                "day3": [3, 4, 5, 6, 7, 8]
+            },
+            "weathers": {
+                "day1": ["sun", "cloud", "rain"],
+                "day2": ["rain", "cloud", "sun"],
+                "day3": ["sun", "sun", "cloud"]
+            }
+    },
+        {
+            "name": "christchurch",
+            "temps": {
+                "day1": [1, 2, 3, 4, 5, 6],
+                "day2": [2, 3, 4, 5, 6, 7],
+                "day3": [3, 4, 5, 6, 7, 8]
+            },
+            "weathers": {
+                "day1": ["sun", "cloud", "rain"],
+                "day2": ["rain", "cloud", "sun"],
+                "day3": ["sun", "sun", "cloud"]
+            }
+    }
+    ]
+}
